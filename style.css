@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+/* Hero section specific styles */
+.hero-bg {
+  background: linear-gradient(135deg, #1f2733 0%, #0d1117 100%);
+}
+
+.glowing-border {
+  background: conic-gradient(
+    from 0deg,
+    #22d3ee,
+    #a78bfa,
+    #f472b6,
+    #fb7185,
+    #facc15,
+    #22d3ee
+  );
+}
+
+/* Custom scrollbar for a clean look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #30363d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0d1117;
+}
+
+/* Media query for tablet and mobile responsiveness */
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-image {
+    margin-bottom: 1.5rem;
+  }
+}
