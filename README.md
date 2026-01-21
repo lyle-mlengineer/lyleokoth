@@ -15,6 +15,10 @@ My goal is to build fast and accurate speech models that make content creations 
 
 ## Portfolio
 
+<p align=center>
+  <img src="assets/farm-buddy.gif" />
+</p>
+
 ## Projects
 #### Savannah Faces
 >A web application for generating realistic looking Kenyan Faces
@@ -67,3 +71,19 @@ I am available on all the major social platforms.
     <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Lyle's streak" src="https://img.shields.io/badge/<@lylethedesigner>-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"/> 
   <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Lyle's streak" src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"/>
 </p>
+
+## License
+
+The API uses an [MIT License](LICENSE)
+
+## Developer
+
+Lyle Okoth – [@lylethedesigner](https://twitter.com/lylethokoth) on twitter
+
+[lyle okoth](https://medium.com/@lyle-okoth) on medium
+
+My email is lyceokoth@gmail.com
+
+Here is my [GitHub Profile](https://github.com/twyle/)
+
+You can also find me on [Linkedin](https://www.linkedin.com/in/lyle-okoth/)
