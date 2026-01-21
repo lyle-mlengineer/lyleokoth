@@ -16,7 +16,7 @@ My goal is to build fast and accurate speech models that make content creations 
 ## Portfolio
 
 <p align=center>
-  <img src="assets/farm-buddy.gif" />
+  <img src="image/portfolio.gif" />
 </p>
 
 ## Projects
