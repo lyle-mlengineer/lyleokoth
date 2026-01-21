@@ -23,3 +23,27 @@ mobileNavList.forEach((list) => {
     closeButton.click();
   })
 })
+
+const timeSnapURL = "https://timesnap-b9t1.onrender.com/health"
+const savannaURL = "https://savannafaces.onrender.com/health"
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Your JavaScript code here
+    console.log('DOM has loaded!');
+    fetch(timeSnapURL)
+        .then(response => response.text())
+        .then(data => {
+          console.log("TimeSnap", data);
+        })
+        .catch(error => {
+          console.error('Error fetching data:', error);
+        });
+    fetch(savannaURL)
+        .then(response => response.text())
+        .then(data => {
+          console.log("Savanna", data);
+        })
+        .catch(error => {
+          console.error('Error fetching data:', error);
+        })
+});
